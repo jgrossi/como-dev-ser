@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src/"
+        }
+    },
+    "require": {
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "dompdf/dompdf": "^1.0",
+        "guzzlehttp/psr7": "^1.7"
+    }
+}
